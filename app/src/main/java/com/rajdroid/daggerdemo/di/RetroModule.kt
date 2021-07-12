@@ -9,7 +9,7 @@ import javax.inject.Singleton
 @Module
  class RetroModule {
 
-    val baseURL = "https://api.github.com/"
+    val baseURL = "https://newsapi.org/v2/"
     @Singleton
     @Provides
     fun getRetroServiceInterface(retrofit: Retrofit):RetroServiceInterface {
